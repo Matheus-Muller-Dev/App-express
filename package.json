@@ -1,0 +1,22 @@
+{
+  "name": "app-express",
+  "version": "1.0.0",
+  "description": "Simples App para testar Express",
+  "main": "home.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Muller-Dev/App-express.git"
+  },
+  "author": "Matheus Müller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus-Muller-Dev/App-express/issues"
+  },
+  "homepage": "https://github.com/Matheus-Muller-Dev/App-express#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
