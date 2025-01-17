@@ -8,7 +8,17 @@
 </head>
 <body>
     <h1>Welcome to the Home Page</h1>
-    <a href="/about.html">About Us</a>
+    <a href="/public/about.html">About Us</a>
     
+    <h2>Bitconin</h2>
+    <table border="1">
+        <tbody>
+        {% for item in informacoes %}
+            <tr>
+               <td>{{ item.bitcoin }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
 </body>
 </html>
